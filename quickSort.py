@@ -1,3 +1,13 @@
+''' 
+Author: Daniel Rivera
+Created on: 12/1/2021
+Description: This program will sort an array of n length in ascending order.
+This will sort the array using the quick sort method. This is a divide and concur
+method driven by recursively dividing the array into 2 parts and sorting each
+part in ascending order. Will swap all values to the appropriate position by the use
+of conditional statements and recursive calls.
+'''
+
 def swap(array, i, j):
     tempValue = array[j]
     array[j] = array[i]
